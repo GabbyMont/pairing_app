@@ -12,7 +12,8 @@ class Pair_generator < Minitest::Test
 		assert_equal(2, random_array(["Adam", "Tristan", "Fabio", "Hunter"]).count)
 	end
 
-	# def test_1_shuffle
-	# 	assert_equal()
-	# end
+	def test_1_shuffle
+		print random_array(["Autym", "Casey", "Jason", "Evan", "Jack"])
+		assert_equal(2, random_array(["Autym", "Casey", "Jason", "Evan", "Jack"]).count)
+	end
 end
